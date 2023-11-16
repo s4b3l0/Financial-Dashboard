@@ -12,6 +12,8 @@
 </head>
 <body>
 <jsp:include page="commons/header.jsp"></jsp:include>
-<h2>Content</h2>
+<div class="container">
+    <h2>${name}</h2>
+</div>
 </body>
 </html>

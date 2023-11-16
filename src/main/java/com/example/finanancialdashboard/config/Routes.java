@@ -6,6 +6,7 @@ public enum Routes {
     DASHBOARD("dashboard"),
     CONTACT("contact");
 
+
     public final String label;
     Routes(String label) {
         this.label = label;
