@@ -10,19 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
     @RequestMapping(path = {"index", "/", "dashboard"})
-    public String dashboard( Model model) {
+    public String dashboard(Model model) {
         model.addAttribute("name", "dashboard");
         return "dashboard";
     }
 
     @RequestMapping("about")
-    public String about( Model model) {
+    public String about(Model model) {
         model.addAttribute("name", "about");
         return "about";
     }
 
     @RequestMapping("contact")
-    public String contact( Model model) {
+    public String contact(Model model) {
         model.addAttribute("name", "contact");
         return "contact";
     }
