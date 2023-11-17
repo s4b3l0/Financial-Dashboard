@@ -1,7 +1,6 @@
 package com.example.finanancialdashboard.controllers;
 
 import com.example.finanancialdashboard.config.Routes;
-import jakarta.websocket.server.PathParam;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
